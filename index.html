@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Home</title>
+</head>
+<body class="index-body">
+<div>
+    
+     <div id="magic-nav" >
+    <div class="tile tile66" id="magic-nav-end" onclick="endAnimation()"><a href='#'><i class="fa fa-times"></i></a></div>
+    <div class="tile tile126"  ></div>
+    <div class="tile tile1212">    </div>
+    <div class="tile tile2512">    </div>
+    <div class="tile tile2525">    </div>
+    <div class="tile tile5025"> <a href="Resume.html"> RESUME</a>  </div>
+    <div class="tile tile5050"> <a href="Contact_me.html"> CONTACT </a> </div>
+    <div class="tile tile10050"><a href="About-me.html">ABOUT</a>   </div>
+    <div class="tile tile100100"><a href="Projects.html">  PROJECTS </a>  </div>
+</div>
+<div class="nav-button" onclick="startAnimation()"><i class="fa fa-bars"></i></div>
+    <div class="contents" style="padding-left: 3%;">
+        <div class="home-content-left">
+            <p style="font-size: 4em ; color: white;">Hi
+                <span style="font-size:0.9em;font-weight: bold; color: white;">!</span></p>
+            <p style="font-size: 3em; color: white;">I'm 
+                <span style="font-size: 1.33em;font-weight:bold ; color: #29C7AC;">Gagan chaudhary</span>,</p>
+            <p style="font-size: 2em ; color: white;">An aspiring web-developer, graduated in 2021</p>
+            <p style="font-size: 1.5em ; color: white;">Feel free to take a look at my <span ><a id="homeProjectLink" href="Projects.html">latest projects</a></span> on the web portfolio page</p>
+
+        </div>
+    </div>
+</div>
+<canvas style="position: absolute;left:0;top: 0;" id="canvas" ></canvas>
+<!-- <script src="cursorTrail.js"></script>
+<script>
+    function startAnimation(){
+        var startTargetElement=document.getElementById("magic-nav");
+        startTargetElement.className="expand-nav-action";
+    }
+    function endAnimation(){
+        var endTargetElement=document.getElementById("magic-nav");
+        endTargetElement.className="collapse-nav-action";
+    }
+</script> -->
+</body>
+</html>
